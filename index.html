@@ -3,57 +3,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electronica YA</title>
+    <title>Ramoo</title>
     <link href="/css/styles.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/988f8e6746.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <section id="header">
-      <a href="#"><img src="/assets/Logo empresa.png" alt="logo" class="logo"></a>
+      <a href="index.html"><img src="/assets/Logo empresa.png" alt="logo" class="logo"></a>
       <div>
         <ul id="navbar">
-          <li><a href="#" class="active">Pagina principal</a></li>
-          <li><a href="/categorias.html">Categorías</a></li>
-          <li><a href="/ofertas.html">Ofertas</a></li>
-          <li><a href="/ayuda.html">Ayuda</a></li>
-          <li id="lg-bag"><a href="/shop.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-          <li id="lg-bag"><a href="/usuario.html"><i class="fa-solid fa-user"></i></a></li>
+          <li><a href="index.html">Pagina principal</a></li>
+          <li><a id="categoriesBtn">Categorías</a></li>
+          <li><a id="aboutBtn">Ayuda</a></li>
+          <li id="lg-bag"><a id="userBtn"><i class="fa-solid fa-user"></i></a></li>
           <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
         </ul>
       </div>
       <div id="mobile">
-        <a href="/shop.html"><i class="fa-solid fa-cart-shopping"></i></a>
-        <a href="/usuario.html"><i class="fa-solid fa-user"></i></a>
+        <a id="userBtn"><i class="fa-solid fa-user"></i></a>
         <i id="bar" class="fa-solid fa-list"></i>
       </div>
     </section>
+    <main id="content">
     <section id="hero">
-      <h4>En Electronica YA</h4>
-      <h2>Dia de la Madre</h2>
-      <h1>Descuentos</h1>
+      <h4>En Ramoo</h4>
+      <h2>Todas nuestras</h2>
+      <h1>Gorras</h1>
       <p>
-        <strong>Disfruta de los mejores descuentos del dia de la madre</strong>
+        <strong>Disfruta de las mejores gorras</strong>
       </p>
-      <a href="/ofertas.html" class="button">Mira los descuentos aqui</a>
-
-    </section>
-    <section id="feature" class="section-p1">
-      <div class="fe-box">
-        <img src="/assets/ps5.png" alt="">
-        <h6>Tecnologia</h6>
-      </div>
-      <div class="fe-box">
-        <img src="/assets/licuadora.png" alt="">
-        <h6>Electrodomesticos</h6>
-      </div>
-      <div class="fe-box">
-        <img src="/assets/Iphone 15 pro max.png" alt="">
-        <h6>Ofertas</h6>
-      </div>
-      <div class="fe-box">
-        <img src="/assets/impresora epson.png" alt="">
-        <h6>Entre Otros</h6>
-      </div>
+      <a id="categoriesBtn" class="button">Mira nuestros productos aqui</a>
     </section>
     <section id="product1" class="section-p1">
       <h2>Todos los productos</h2>
@@ -65,11 +44,12 @@
     <a href="/error.html" target="_blank" class="whatsapp-link">
       <img src="/assets/whatsapp.png" alt="WhatsApp" />
     </a>
+    </main>
     <footer class="section-p1">
       <div class="col">
         <h4>Contactos</h4>
         <p>
-          <strong>Número de telefono:</strong> +54 260 459-8745
+          <strong>Número de telefono:</strong> +54 260 459-8995
         </p>
       </div>
       <div class="follow">
@@ -83,7 +63,7 @@
       </div>
       <div class="copyright">
         <p>
-          © 2024, electronica ya - Todos los derechos reservados
+          © 2024, Ramoo - Todos los derechos reservados
         </p>
       </div>
     </footer>
@@ -91,5 +71,8 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="/javascript/script.js"></script>
     <script src="javascript/productos.js"></script>
+    <script src="/javascript/dom.js"></script>
+    <script src="javascript/administracion.js"></script>
+    <script src="javascript/pagProductosSubidos.js"></script>
   </body>
 </html>

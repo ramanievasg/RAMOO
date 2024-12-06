@@ -8,21 +8,26 @@
     scrollbar-width:none;
 }
 
+body {
+    background-color: #313131;
+}
+
+
 h1 {
     font-size: 50px;
     line-height: 64px;
-    color: #222;
+    color: #818683;
 }
 
 h2 {
     font-size: 46px;
     line-height: 54px;
-    color: #222;
+    color: #c7c7c7;
 }
 
 h4 {
     font-size: 20px;
-    color: #222;
+    color: #818683;
 }
 
 h6 {
@@ -32,10 +37,13 @@ h6 {
 
 p {
     font-size: 16px;
-    color: #465b52;
+    color: #818683;
     margin: 15px 0 20px 0;
 }
 
+span {
+    color: #c7c7c7;
+}
 
 .section-p1 {
     padding: 40px 80px;
@@ -60,7 +68,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #2fcacc;
+    background: #781192;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
@@ -86,7 +94,7 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: #088178;
+    color: #afafaf;
 }
 
 #navbar li a.active::after,
@@ -94,7 +102,7 @@ body {
     content: "";
     width: 30%;
     height: 2px;
-    background: #088178;
+    background: #afafaf;
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -127,13 +135,13 @@ footer .follow {
 }
 
 footer .follow i {
-    color: #465b52;
+    color: #818683;
     padding-right: 4px;
     cursor: pointer;    
 }
 
 footer .follow i:hover {
-    color: #088178;
+    color: #a11195;
     transition: 0.2s;
 }
 
@@ -168,7 +176,7 @@ footer .follow i:hover {
 
 #prodetails .single-pro-details button{
     background-image: url("#");
-    background-color: #088178;
+    background-color: #810881;
     color: white;
     border: 0;
     padding: 14px 20px 14px 20px;
@@ -180,53 +188,12 @@ footer .follow i:hover {
 }
 
 #prodetails .single-pro-details button:hover{
-    background-color: #086054;
+    background-color: #660866;
     transition: 0.3s ease;
 }
 
 #prodetails .single-pro-details span {
     line-height: 25px;
-}
-
-#star-prod {
-    font-size: 18px;
-    color: rgb(243, 181, 25);
-    position: relative;
-    top: 3px;
-}
-
-#error h1 {
-    color: #088178;
-    font-size: 250px;
-    text-align: center;
-    position: relative;
-    top: 290px;
-    right: 10px;
-}
-
-#error h2 {
-    font-size: 150px;
-    text-align: center;
-    position: relative;
-    top: 30px;
-}
-
-#error h4 {
-    font-size: 80px;
-    text-align: center;
-    position: relative;
-    top: 280px;
-}
-
-.og-price {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 10px;
-    color: #1a1a1a;
-    left: 0px;
-    font-weight: 600;
-    font-size: 22px;
 }
 
 .whatsapp-link {

@@ -34,14 +34,3 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
-
-const showPassword = document.getElementById("showPassword");
-const passwordField = document.getElementById("password");
-
-showPassword.addEventListener("change", function() {
-    if (showPassword.checked) {
-        passwordField.type = "text";
-    } else {
-        passwordField.type = "password";
-    }
-});
