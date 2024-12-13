@@ -191,8 +191,6 @@ const templates = {
     <section class="section-p1">
         <form id="product-form">
             <h2>Carga de Productos</h2>
-            <label for="numero-ID">Número de ID</label>
-            <input type="number" id="numero-ID" required>
             <label for="nombre-producto">Nombre del producto</label>
             <input type="text" id="nombre-producto" required>
             <label for="descripcion-producto">Descripción del producto</label>
@@ -202,7 +200,11 @@ const templates = {
             <label for="imagen-producto">Imagen del Producto</label>
             <input type="file" id="imagen-producto" required>
             <label for="categoria-producto">Categoría del producto</label>
-            <input type="text" id="categoria-producto" required>
+            <select id="categoria-producto" required>
+                <option value="">Seleccione una categoría</option>
+                <option value="Gorras Polo">Gorras Polo</option>
+                <option value="Gorras Cerradas">Gorras Cerradas</option>
+            </select>
             <input type="submit" value="Añadir" id="submit-button">
         </form>
         <table class="product-table">
